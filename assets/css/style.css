@@ -15,6 +15,49 @@
   overflow: hidden;
 }
 
+   @media (max-width: 991px) {
+      .navbar-collapse {
+        background: rgba(0, 0, 0, 0.95);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 15px;
+        max-height: 75vh;
+        overflow-y: auto;
+        /* Screen se bahar jaye bina scroll ho jayega */
+      }
+
+      /* 2. Position Indicators at Bottom on Mobile */
+      .slider-indicators-custom {
+        top: auto !important;
+        bottom: 20px !important;
+        right: 50% !important;
+        transform: translateX(50%) !important;
+        flex-direction: row !important;
+        margin-right: 0 !important;
+      }
+
+      .indicator-line {
+        width: 2px !important;
+        height: 15px !important;
+      }
+
+      .indicator-item.active .indicator-line {
+        width: 2px !important;
+        height: 30px !important;
+      }
+    }
+
+    /* Desktop Defaults (Screen 992px se badi ho) */
+    @media (min-width: 992px) {
+      .slider-indicators-custom {
+        top: 50% !important;
+        bottom: auto !important;
+        right: 1.5rem !important;
+        transform: translateY(-50%) !important;
+        flex-direction: column !important;
+      }
+    }
+
     /* Curved Glass Overlay with Golden Tint */
     .hero-section::after {
       content: '';
