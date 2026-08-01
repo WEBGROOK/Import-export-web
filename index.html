@@ -19,149 +19,164 @@
 
 
 <body>
-<!-- HERO SECTION -->
-<div class="hero-section position-relative vh-100 d-flex flex-column justify-content-between text-white overflow-hidden" 
-     style="background-attachment: fixed; background-size: cover; background-position: center;">
-  
-  <!-- Overlay Background for Dark Contrast -->
-  <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.6); z-index: 1;"></div>
+  <!-- HERO SECTION -->
+  <div
+    class="hero-section position-relative vh-100 d-flex flex-column justify-content-between text-white overflow-hidden"
+    style="background-attachment: fixed; background-size: cover; background-position: center;">
 
-  <!-- Header / Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark pt-4 position-relative" style="z-index: 3;">
-    <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <i class="bi bi-truck fs-3 text-gold"></i>
-        <span>THE<br><small class="d-block lh-1" style="font-size: 0.65rem; letter-spacing: 2px; color: #fff;">TRANSPORT</small></span>
-      </a>
-  <!-- Icons -->
-<div class="d-flex align-items-center ms-auto mt-3 mt-lg-0 gap-3">
-  <a href="#" class="text-white text-decoration-none fs-5"><i class="bi bi-search"></i></a>
-  <a href="#" class="text-white text-decoration-none fs-5"><i class="bi bi-person"></i></a>
-</div>
+    <!-- Overlay Background for Dark Contrast -->
+    <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100"
+      style="background: rgba(0,0,0,0.6); z-index: 1;"></div>
 
-      <!-- Mobile Toggle -->
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-    <!-- Nav Links -->
-<!-- Nav Links -->
-<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-  <ul class="navbar-nav align-items-center gap-lg-3">
-    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-    <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-    
-    <!-- Contact: Mobile par Hide, Desktop par Show -->
-    <li class="nav-item d-none d-lg-block">
-      <a class="nav-link" href="#">Contact</a>
-    </li>
-  </ul>
-
-  <!-- Icons Container -->
-  <div class="d-flex align-items-center ms-lg-3 mt-3 mt-lg-0 gap-3">
-    
-    <!-- Search Icon: Mobile par Hide, Desktop par Show -->
-    <a href="#" class="text-white text-decoration-none fs-5 d-none d-lg-inline-block">
-      <i class="bi bi-search"></i>
-    </a>
-    
-    <!-- Person Icon: Mobile par Hide, Desktop par Show -->
-    <a href="#" class="text-white text-decoration-none fs-5 d-none d-lg-inline-block">
-      <i class="bi bi-person"></i>
-    </a>
-
-  </div>
-</div>
-    </div>
-  </nav>
-
-  <!-- Main Hero Content (Dynamic Slides) -->
-  <div class="container my-auto position-relative py-4" style="z-index: 2;">
-    <div class="row align-items-center">
-      <div class="col-lg-8 col-xl-7">
-
-        <!-- Slide 01 -->
-        <div class="slide-content" id="slide-1">
-          <div class="hero-badge mb-3">
-            <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold border border-gold-subtle" style="background: rgba(226, 182, 48, 0.1); color: #e2b630; letter-spacing: 1.5px; font-size: 0.75rem;">
-              <i class="bi bi-globe2 me-1"></i> Global Coverage
-            </span>
-          </div>
-          <h1 class="hero-title fw-bold display-4 mb-3" style="line-height: 1.15; letter-spacing: -0.5px;">
-            Global Logistics<br>
-            <span class="text-gold">& Supply Chain</span>
-          </h1>
-          <p class="hero-desc lead mb-4 pe-lg-5" style="color: #cccccc; font-size: 1.1rem; font-weight: 300; line-height: 1.6;">
-            Seamless cargo transport and global routing designed for maximum efficiency, speed, and end-to-end transparency.
-          </p>
-          <a href="#" class="btn btn-gold btn-lg px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
-            Explore Routes <i class="bi bi-arrow-right fs-5"></i>
-          </a>
+    <!-- Header / Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark pt-4 position-relative" style="z-index: 3;">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <i class="bi bi-truck fs-3 text-gold"></i>
+          <span>THE<br><small class="d-block lh-1"
+              style="font-size: 0.65rem; letter-spacing: 2px; color: #fff;">TRANSPORT</small></span>
+        </a>
+        <!-- Icons -->
+        <div class="d-flex align-items-center ms-auto mt-3 mt-lg-0 gap-3">
+          <a href="#" class="text-white text-decoration-none fs-5"><i class="bi bi-search"></i></a>
+          <a href="#" class="text-white text-decoration-none fs-5"><i class="bi bi-person"></i></a>
         </div>
 
-        <!-- Slide 02 (Default Active) -->
-        <div class="slide-content active" id="slide-2">
-          <div class="hero-badge mb-3">
-            <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold border border-gold-subtle" style="background: rgba(226, 182, 48, 0.1); color: #e2b630; letter-spacing: 1.5px; font-size: 0.75rem;">
-              <i class="bi bi-speedometer2 me-1"></i> Fast Delivery
-            </span>
-          </div>
-          <h1 class="hero-title fw-bold display-4 mb-3" style="line-height: 1.15; letter-spacing: -0.5px;">
-            Speed Supply<br>
-            <span class="text-gold">For Transportation</span>
-          </h1>
-          <p class="hero-desc lead mb-4 pe-lg-5" style="color: #cccccc; font-size: 1.1rem; font-weight: 300; line-height: 1.6;">
-            Timely deliveries, accurate order fulfillment, and proper handling of goods to elevate your business experience.
-          </p>
-          <a href="#" class="btn btn-gold btn-lg px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
-            Learn More <i class="bi bi-arrow-right fs-5"></i>
-          </a>
-        </div>
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- Slide 03 -->
-        <div class="slide-content" id="slide-3">
-          <div class="hero-badge mb-3">
-            <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold border border-gold-subtle" style="background: rgba(226, 182, 48, 0.1); color: #e2b630; letter-spacing: 1.5px; font-size: 0.75rem;">
-              <i class="bi bi-shield-check me-1"></i> Highly Secure
-            </span>
-          </div>
-          <h1 class="hero-title fw-bold display-4 mb-3" style="line-height: 1.15; letter-spacing: -0.5px;">
-            Safe & Secure<br>
-            <span class="text-gold">Fleet Solutions</span>
-          </h1>
-          <p class="hero-desc lead mb-4 pe-lg-5" style="color: #cccccc; font-size: 1.1rem; font-weight: 300; line-height: 1.6;">
-            Advanced tracking systems ensure real-time visibility, top-tier safety, and complete security for every package.
-          </p>
-          <a href="#" class="btn btn-gold btn-lg px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
-            Our Services <i class="bi bi-arrow-right fs-5"></i>
-          </a>
-        </div>
+        <!-- Nav Links -->
+        <!-- Nav Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">News</a></li>
 
+            <!-- Contact: Mobile par Hide, Desktop par Show -->
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Icons Container -->
+          <div class="d-flex align-items-center ms-lg-3 mt-3 mt-lg-0 gap-3">
+
+            <!-- Search Icon: Mobile par Hide, Desktop par Show -->
+            <a href="#" class="text-white text-decoration-none fs-5 d-none d-lg-inline-block">
+              <i class="bi bi-search"></i>
+            </a>
+
+            <!-- Person Icon: Mobile par Hide, Desktop par Show -->
+            <a href="#" class="text-white text-decoration-none fs-5 d-none d-lg-inline-block">
+              <i class="bi bi-person"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Hero Content (Dynamic Slides) -->
+    <div class="container my-auto position-relative py-4" style="z-index: 2;">
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-xl-7">
+
+          <!-- Slide 01 -->
+          <div class="slide-content" id="slide-1">
+            <div class="hero-badge mb-3">
+              <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold border border-gold-subtle"
+                style="background: rgba(226, 182, 48, 0.1); color: #e2b630; letter-spacing: 1.5px; font-size: 0.75rem;">
+                <i class="bi bi-globe2 me-1"></i> Global Coverage
+              </span>
+            </div>
+            <h1 class="hero-title fw-bold display-4 mb-3" style="line-height: 1.15; letter-spacing: -0.5px;">
+              Global Logistics<br>
+              <span class="text-gold">& Supply Chain</span>
+            </h1>
+            <p class="hero-desc lead mb-4 pe-lg-5"
+              style="color: #cccccc; font-size: 1.1rem; font-weight: 300; line-height: 1.6;">
+              Seamless cargo transport and global routing designed for maximum efficiency, speed, and end-to-end
+              transparency.
+            </p>
+            <a href="#"
+              class="btn btn-gold btn-lg px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
+              Explore Routes <i class="bi bi-arrow-right fs-5"></i>
+            </a>
+          </div>
+
+          <!-- Slide 02 (Default Active) -->
+          <div class="slide-content active" id="slide-2">
+            <div class="hero-badge mb-3">
+              <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold border border-gold-subtle"
+                style="background: rgba(226, 182, 48, 0.1); color: #e2b630; letter-spacing: 1.5px; font-size: 0.75rem;">
+                <i class="bi bi-speedometer2 me-1"></i> Fast Delivery
+              </span>
+            </div>
+            <h1 class="hero-title fw-bold display-4 mb-3" style="line-height: 1.15; letter-spacing: -0.5px;">
+              Speed Supply<br>
+              <span class="text-gold">For Transportation</span>
+            </h1>
+            <p class="hero-desc lead mb-4 pe-lg-5"
+              style="color: #cccccc; font-size: 1.1rem; font-weight: 300; line-height: 1.6;">
+              Timely deliveries, accurate order fulfillment, and proper handling of goods to elevate your business
+              experience.
+            </p>
+            <a href="#"
+              class="btn btn-gold btn-lg px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
+              Learn More <i class="bi bi-arrow-right fs-5"></i>
+            </a>
+          </div>
+
+          <!-- Slide 03 -->
+          <div class="slide-content" id="slide-3">
+            <div class="hero-badge mb-3">
+              <span class="badge rounded-pill px-3 py-2 text-uppercase fw-semibold border border-gold-subtle"
+                style="background: rgba(226, 182, 48, 0.1); color: #e2b630; letter-spacing: 1.5px; font-size: 0.75rem;">
+                <i class="bi bi-shield-check me-1"></i> Highly Secure
+              </span>
+            </div>
+            <h1 class="hero-title fw-bold display-4 mb-3" style="line-height: 1.15; letter-spacing: -0.5px;">
+              Safe & Secure<br>
+              <span class="text-gold">Fleet Solutions</span>
+            </h1>
+            <p class="hero-desc lead mb-4 pe-lg-5"
+              style="color: #cccccc; font-size: 1.1rem; font-weight: 300; line-height: 1.6;">
+              Advanced tracking systems ensure real-time visibility, top-tier safety, and complete security for every
+              package.
+            </p>
+            <a href="#"
+              class="btn btn-gold btn-lg px-4 py-3 rounded-pill fw-semibold shadow-sm d-inline-flex align-items-center gap-2">
+              Our Services <i class="bi bi-arrow-right fs-5"></i>
+            </a>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
 
-<!-- Right / Bottom Interactive Indicators -->
-<div class="slider-indicators-custom position-absolute d-flex gap-3" style="z-index: 3;">
-  <div class="indicator-item" data-slide="1">
-    <span class="indicator-line"></span> 01
-  </div>
-  <div class="indicator-item active" data-slide="2">
-    <span class="indicator-line"></span> 02
-  </div>
-  <div class="indicator-item" data-slide="3">
-    <span class="indicator-line"></span> 03
-  </div>
-</div>
+    <!-- Right / Bottom Interactive Indicators -->
+    <div class="slider-indicators-custom position-absolute d-flex gap-3" style="z-index: 3;">
+      <div class="indicator-item" data-slide="1">
+        <span class="indicator-line"></span> 01
+      </div>
+      <div class="indicator-item active" data-slide="2">
+        <span class="indicator-line"></span> 02
+      </div>
+      <div class="indicator-item" data-slide="3">
+        <span class="indicator-line"></span> 03
+      </div>
+    </div>
 
-  <div class="pb-3"></div>
-</div>
+    <div class="pb-3"></div>
+  </div>
 
   <!-- 2. SPACER DIV (Hero jitni jagah scrollable banane ke liye) -->
-  
+
 
   <!-- 3. ALL MAIN CONTENT WRAPPER (Hero ke ooper scroll hoga - z-index: 3) -->
   <main class="position-relative bg-dark text-white shadow-lg" style="z-index: 3;">
@@ -235,7 +250,7 @@
           </p>
         </div>
 
-        <div class="row g-5 mt-2">
+        <div class="row g-4 g-md-5 mt-2">
           <div class="col-md-6">
             <div class="service-item">
               <div class="service-number">01</div>

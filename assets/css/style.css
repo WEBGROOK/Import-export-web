@@ -3,6 +3,11 @@
       box-sizing: border-box;
     }
 
+    html, body {
+      overflow-x: hidden;
+      width: 100%;
+    }
+
     /* Hero Background & Overlay - Matte Black Gradient */
   .hero-section {
   min-height: 100vh;
@@ -16,6 +21,19 @@
 }
 
    @media (max-width: 991px) {
+      /* Reduce size of navbar toggler and mobile icons */
+      .navbar-toggler {
+        padding: 0.15rem 0.4rem;
+      }
+      .navbar-toggler-icon {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-top: 15px;
+      }
+      .navbar .d-flex .fs-5 {
+        font-size: 1.05rem !important;
+      }
+
       .navbar-collapse {
         background: rgba(0, 0, 0, 0.95);
         padding: 20px;
@@ -384,117 +402,6 @@
 
 
 
-/* Services Section Matte Dark & Golden Theme */
-.services-section-wrapper {
-  font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
-  background-color: #0b1117; /* Dark Navy/Matte Black */
-  color: #ffffff;
-  padding: 80px 0;
-}
-
-/* Section Header */
-.services-subtitle {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: #e2b630; /* Golden Accent */
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 15px;
-}
-
-.services-title {
-  font-size: clamp(2rem, 4.5vw, 3rem);
-  font-weight: 800;
-  line-height: 1.25;
-  color: #ffffff;
-  max-width: 850px;
-  margin: 0 auto 20px auto;
-}
-
-.services-title span {
-  color: #e2b630;
-}
-
-.services-desc {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.65);
-  max-width: 650px;
-  margin: 0 auto 60px auto;
-  line-height: 1.6;
-}
-
-/* Service Item Card */
-.service-item {
-  padding: 10px 15px;
-  transition: transform 0.3s ease;
-}
-
-.service-item:hover {
-  transform: translateY(-5px);
-}
-
-.service-number {
-  font-size: 4rem;
-  font-weight: 300;
-  color: #ffffff;
-  line-height: 1;
-  margin-bottom: 25px;
-  opacity: 0.9;
-  letter-spacing: -1px;
-}
-
-.service-divider {
-  width: 100%;
-  height: 1px;
-  background-color: rgba(255, 255, 255, 0.15);
-  margin-bottom: 25px;
-  transition: background-color 0.3s ease;
-}
-
-.service-item:hover .service-divider {
-  background-color: #e2b630;
-}
-
-/* Service Title & Icon */
-.service-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 15px;
-}
-
-.service-icon {
-  font-size: 1.3rem;
-  color: #e2b630; /* Golden Icon */
-}
-
-.service-name {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #ffffff;
-  margin: 0;
-}
-
-.service-text {
-  font-size: 0.88rem;
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 1.7;
-  margin: 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 767.98px) {
-  .services-section-wrapper {
-    padding: 50px 0;
-  }
-  .service-number {
-    font-size: 3.2rem;
-    margin-bottom: 15px;
-  }
-  .services-desc {
-    margin-bottom: 40px;
-  }
-}
 
 
 
