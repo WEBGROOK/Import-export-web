@@ -68,6 +68,12 @@
         width: 2px !important;
         height: 30px !important;
       }
+
+      /* Adjust hero text position on mobile (move it up) */
+      .hero-section .container.my-auto {
+        margin-top: 7vh !important;
+        margin-bottom: auto !important;
+      }
     }
 
     /* Desktop Defaults (Screen 992px se badi ho) */
