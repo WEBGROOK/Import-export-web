@@ -130,7 +130,7 @@
 
     .nav-icon:hover {
       opacity: 1;
-      color: #f3d77e;
+      color: #e2b630;
     }
 
     /* Content Transition Styling */
@@ -186,7 +186,7 @@
     }
 
     .btn-learn-more:hover {
-      background-color: #f3d77e;
+      background-color: #e2b630;
       color: #000000;
       transform: translateY(-2px);
       box-shadow: 0 6px 20px rgba(229, 193, 88, 0.35);
@@ -354,10 +354,23 @@
 }
 
 .btn-golden-pill:hover {
-  background-color: #f3d77e;
+  background-color: #e2b630;
   color: #000000;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(229, 193, 88, 0.35);
+}
+
+/* Gold Button */
+.btn-gold {
+ 
+  border-color: #e2b630;
+  color: #ffffff;
+}
+
+.btn-gold:hover {
+  background-color: #e2b630;
+  border-color: #e2b630;
+  color: #000000;
 }
 
 /* Image Cards Section */
